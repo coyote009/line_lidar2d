@@ -22,40 +22,40 @@ The repository includes a set of tools that are required for generating calibrat
 
 First, you need to build the image acquisition library in the following manner.
 
->> \> cd raspivideocap2  
->> \> mkdir build
->> \> cd build
->> \> cmake ..
->> \> make
+\> cd raspivideocap2  
+\> mkdir build  
+\> cd build  
+\> cmake ..  
+\> make  
 
 After building the library you can test the library if you want.
 
->> \> cd test_raspivideocap2
->> \> cd build
->> \> cmake ..
->> \> make
->> \> ./test_raspivideocap2
+\> cd test_raspivideocap2  
+\> cd build  
+\> cmake ..  
+\> make  
+\> ./test_raspivideocap2  
 
 2. Generate calibration chart image(s) if you don't have one
 
->> \> cd calib_chess_generator
->> \> mkdir build
->> \> cd build
->> \> cmake ..
->> \> make
->> \> ./calib_chess_generator
+\> cd calib_chess_generator  
+\> mkdir build  
+\> cd build  
+\> cmake ..  
+\> make  
+\> ./calib_chess_generator  
 
 3. Build and run the intrinsic calibration tool
 
-The procedure is almost the same as step2 but cd into calib_mono_raspicam2
+The procedure is basically the same as step2 but cd into calib_mono_raspicam2
 
 
 4. Build and run the line laser calibration tool
 
-The procedure is almost the same as step2 but cd into calib_line_chess_raspicam2
+The procedure is basically the same as step2 but cd into calib_line_chess_raspicam2
 
 5. Build and run the depth estimation tool
 
-The procedure is almost the same as step2 but cd into line_depth2_raspicam2
+The procedure is basically the same as step2 but cd into line_depth2_raspicam2
 
 
